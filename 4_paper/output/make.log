@@ -1,5 +1,5 @@
 
-Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-07 17:15:39
+Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-08 09:43:14
 Rc files read (in order):
   NONE
 Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
@@ -136,11 +136,11 @@ ne 55.
 [2] [3] [4]
 No file my_project.bbl.
 [5 <../input/figure_city.jpg> <../input/figure_hwy.jpg>]
-(../input/table_reg.tex)
+(../input/table_reg.tex) [6] (../input/table_reg_cluster.tex)
 
 Package natbib Warning: There were undefined citations.
 
-[6] (./my_project.aux)
+[7] (./my_project.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -149,7 +149,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 </usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
 l/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
 2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_project.pdf (6 pages, 120189 bytes).
+Output written on my_project.pdf (7 pages, 117376 bytes).
 Transcript written on my_project.log.
 Latexmk: Getting log file 'my_project.log'
 Latexmk: Examining 'my_project.fls'
@@ -245,8 +245,11 @@ ex) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
 (/usr/local/texlive/2026/texmf-dist/tex/latex/footmisc/footmisc.sty)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-(./my_project.aux)
-(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(./my_project.aux
+
+LaTeX Warning: Label `tab:regression' multiply defined.
+
+) (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
@@ -309,31 +312,30 @@ Package natbib Warning: Citation `Friedman1970' on page 2 undefined on input li
 ne 55.
 
 [2] [3] [4] (./my_project.bbl) [5] [6 <../input/figure_city.jpg> <../input/figu
-re_hwy.jpg>] (../input/table_reg.tex)
+re_hwy.jpg>] (../input/table_reg.tex) [7] (../input/table_reg_cluster.tex)
 
 Package natbib Warning: There were undefined citations.
 
-[7] (./my_project.aux
+[8] (./my_project.aux
 
 Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
 
 )
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 ></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
 l/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
 2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_project.pdf (7 pages, 125624 bytes).
+Output written on my_project.pdf (8 pages, 122785 bytes).
 Transcript written on my_project.log.
 Latexmk: Getting log file 'my_project.log'
 Latexmk: Examining 'my_project.fls'
 Latexmk: Examining 'my_project.log'
 Latexmk: Found input bbl file 'my_project.bbl'
-Latexmk: References changed.
 Latexmk: References changed.
 Latexmk: Log file says output to 'my_project.pdf'
 Latexmk: Using bibtex to make bibliography file(s).
@@ -420,8 +422,11 @@ ex) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
 (/usr/local/texlive/2026/texmf-dist/tex/latex/footmisc/footmisc.sty)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
 (/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-(./my_project.aux)
-(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(./my_project.aux
+
+LaTeX Warning: Label `tab:regression' multiply defined.
+
+) (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 (/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
@@ -472,13 +477,17 @@ ex) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
 exlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/20
 26/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] [3] [4] (./my_project.bbl)
 [5] [6 <../input/figure_city.jpg> <../input/figure_hwy.jpg>]
-(../input/table_reg.tex) [7] (./my_project.aux) )</usr/local/texlive/2026/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on my_project.pdf (7 pages, 125282 bytes).
+(../input/table_reg.tex) [7] (../input/table_reg_cluster.tex) [8]
+(./my_project.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
+l/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
+2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on my_project.pdf (8 pages, 122440 bytes).
 Transcript written on my_project.log.
 Latexmk: Getting log file 'my_project.log'
 Latexmk: Examining 'my_project.fls'
@@ -490,11 +499,15 @@ Latexmk: Using bibtex to make bibliography file(s).
   ===Source file 'my_project.bbl' for 'pdflatex'
 Latexmk: Found bibliography file(s):
   ./my_project.bib
+Latexmk: Summary of warnings from last run of *latex:
+  Latex found 1 multiply defined reference(s)
+Latexmk: ====Problematic refs and citations with line #s in .tex file:
+  Label `tab:regression' multiply defined
 Latexmk: All targets (my_project.pdf) are up-to-date
 
-Script my_project.tex finished successfully at 2026-07-07 17:15:41
+Script my_project.tex finished successfully at 2026-07-08 09:43:15
 
 The following files were created in my_project.tex:
 my_project.pdf 
 
-make.sh finished at 2026-07-07 17:15:41
+make.sh finished at 2026-07-08 09:43:15

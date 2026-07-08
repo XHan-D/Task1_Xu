@@ -3,21 +3,21 @@
 \toprule
 \textbf{Dep. Variable:}    &      displ       & \textbf{  R-squared:         } &     0.638   \\
 \textbf{Model:}            &       OLS        & \textbf{  Adj. R-squared:    } &     0.635   \\
-\textbf{Method:}           &  Least Squares   & \textbf{  F-statistic:       } &     203.3   \\
-\textbf{Date:}             & Wed, 08 Jul 2026 & \textbf{  Prob (F-statistic):} &  1.17e-51   \\
+\textbf{Method:}           &  Least Squares   & \textbf{  F-statistic:       } &    0.8851   \\
+\textbf{Date:}             & Wed, 08 Jul 2026 & \textbf{  Prob (F-statistic):} &    0.601    \\
 \textbf{Time:}             &     09:43:11     & \textbf{  Log-Likelihood:    } &   -272.68   \\
 \textbf{No. Observations:} &         234      & \textbf{  AIC:               } &     551.4   \\
 \textbf{Df Residuals:}     &         231      & \textbf{  BIC:               } &     561.7   \\
 \textbf{Df Model:}         &           2      & \textbf{                     } &             \\
-\textbf{Covariance Type:}  &    nonrobust     & \textbf{                     } &             \\
+\textbf{Covariance Type:}  &     cluster      & \textbf{                     } &             \\
 \bottomrule
 \end{tabular}
 \begin{tabular}{lcccccc}
-                   & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+                   & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
 \midrule
-\textbf{Intercept} &       7.5645  &        0.211     &    35.914  &         0.000        &        7.150    &        7.980     \\
-\textbf{cty}       &      -0.2333  &        0.041     &    -5.699  &         0.000        &       -0.314    &       -0.153     \\
-\textbf{hwy}       &      -0.0068  &        0.029     &    -0.232  &         0.817        &       -0.064    &        0.051     \\
+\textbf{Intercept} &       7.5645  &        0.450     &    16.795  &         0.000        &        6.682    &        8.447     \\
+\textbf{cty}       &      -0.2333  &        0.125     &    -1.872  &         0.061        &       -0.478    &        0.011     \\
+\textbf{hwy}       &      -0.0068  &        0.077     &    -0.088  &         0.930        &       -0.158    &        0.144     \\
 \bottomrule
 \end{tabular}
 \begin{tabular}{lclc}
@@ -31,4 +31,4 @@
 \end{center}
 
 Notes: \newline
- [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+ [1] Standard Errors are robust to cluster correlation (cluster)
