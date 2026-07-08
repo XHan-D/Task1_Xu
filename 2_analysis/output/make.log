@@ -1,12 +1,12 @@
 
-Script analyze_data.py in python3 started at 2026-07-08 09:43:09
+Script analyze_data.py in python3 started at 2026-07-08 10:01:34
                             OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                  displ   R-squared:                       0.638
 Model:                            OLS   Adj. R-squared:                  0.635
 Method:                 Least Squares   F-statistic:                    0.8851
 Date:                Wed, 08 Jul 2026   Prob (F-statistic):              0.601
-Time:                        09:43:11   Log-Likelihood:                -272.68
+Time:                        10:01:36   Log-Likelihood:                -272.68
 No. Observations:                 234   AIC:                             551.4
 Df Residuals:                     231   BIC:                             561.7
 Df Model:                           2                                         
@@ -26,9 +26,9 @@ Kurtosis:                       4.879   Cond. No.                         123.
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-Script analyze_data.py finished successfully at 2026-07-08 09:43:11
+Script analyze_data.py finished successfully at 2026-07-08 10:01:37
 
 The following files were created in analyze_data.py:
 figure_hwy.jpg figure_city.jpg table_reg.tex table_reg_cluster.tex 
 
-make.sh finished at 2026-07-08 09:43:11
+make.sh finished at 2026-07-08 10:01:37
