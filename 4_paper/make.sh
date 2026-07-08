@@ -23,7 +23,7 @@ echo -e "\n\nMaking module \033[35m${MODULE}\033[0m with shell ${SHELL}"
 
 # Load settings & tools
 source "${REPO_ROOT}/local_env.sh"
-source "${REPO_ROOT}/lib/shell/run_shell.sh"
+source "${REPO_ROOT}/lib/shell/run_latex.sh"
 #source "${REPO_ROOT}/lib/shell/run_xxx.sh"
 
 # Clear output directory
@@ -45,7 +45,7 @@ mkdir -p "${MAKE_SCRIPT_DIR}/output"
 (
 cd "${MAKE_SCRIPT_DIR}/source"
 
-run_shell my_shell_script.sh "${LOGFILE}" || exit 1
+run_latex my_project.tex "${LOGFILE}" || exit 1
 # run_xxx my_script.xx "${LOGFILE}" || exit 1
 ) || false
 

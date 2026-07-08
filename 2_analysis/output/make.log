@@ -1,4 +1,34 @@
-make.sh started at 2024-08-12 17:38:54
-Executing: zsh my_shell_script.sh
-Hello world!
-make.sh finished at 2024-08-12 17:38:54
+
+Script analyze_data.py in python3 started at 2026-07-08 10:01:34
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  displ   R-squared:                       0.638
+Model:                            OLS   Adj. R-squared:                  0.635
+Method:                 Least Squares   F-statistic:                    0.8851
+Date:                Wed, 08 Jul 2026   Prob (F-statistic):              0.601
+Time:                        10:01:36   Log-Likelihood:                -272.68
+No. Observations:                 234   AIC:                             551.4
+Df Residuals:                     231   BIC:                             561.7
+Df Model:                           2                                         
+Covariance Type:              cluster                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      7.5645      0.450     16.795      0.000       6.682       8.447
+cty           -0.2333      0.125     -1.872      0.061      -0.478       0.011
+hwy           -0.0068      0.077     -0.088      0.930      -0.158       0.144
+==============================================================================
+Omnibus:                       43.908   Durbin-Watson:                   0.962
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               74.329
+Skew:                           1.012   Prob(JB):                     7.24e-17
+Kurtosis:                       4.879   Cond. No.                         123.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+Script analyze_data.py finished successfully at 2026-07-08 10:01:37
+
+The following files were created in analyze_data.py:
+figure_hwy.jpg figure_city.jpg table_reg.tex table_reg_cluster.tex 
+
+make.sh finished at 2026-07-08 10:01:37

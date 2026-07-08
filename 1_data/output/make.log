@@ -1,4 +1,8 @@
-make.sh started at 2024-08-12 17:38:54
-Executing: zsh my_shell_script.sh
-Hello world!
-make.sh finished at 2024-08-12 17:38:54
+
+Script wrangle_data.py in python3 started at 2026-07-08 10:01:33
+Script wrangle_data.py finished successfully at 2026-07-08 10:01:34
+
+The following files were created in wrangle_data.py:
+mpg.csv 
+
+make.sh finished at 2026-07-08 10:01:34
