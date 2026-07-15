@@ -1,5 +1,5 @@
 
-Script my_project_slides.tex in latexmk -pdf -bibtex started at 2026-07-15 16:36:54
+Script my_project_slides.tex in latexmk -pdf -bibtex started at 2026-07-15 16:54:12
 Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
 Rule 'pdflatex': The following rules & subrules became out-of-date:
       'pdflatex'
@@ -342,7 +342,7 @@ fb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/public/cm-sup
 er/sfss1440.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/
 public/cm-super/sfsx0900.pfb></share/software/user/open/texlive/2019/texmf-dist
 /fonts/type1/public/cm-super/sfsx1000.pfb>
-Output written on my_project_slides.pdf (9 pages, 172842 bytes).
+Output written on my_project_slides.pdf (9 pages, 173298 bytes).
 Transcript written on my_project_slides.log.
 Latexmk: Missing input file: 'my_project_slides.nav' from line
   'No file my_project_slides.nav.'
@@ -685,14 +685,14 @@ n/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></share/soft
 ware/user/open/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb
 ></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/public/cm-super
 /sfsx1000.pfb>
-Output written on my_project_slides.pdf (9 pages, 173228 bytes).
+Output written on my_project_slides.pdf (9 pages, 173685 bytes).
 Transcript written on my_project_slides.log.
 Latexmk: Log file says output to 'my_project_slides.pdf'
 === TeX engine is 'pdfTeX'
 Latexmk: All targets () are up-to-date
-Script my_project_slides.tex finished successfully at 2026-07-15 16:36:57
+Script my_project_slides.tex finished successfully at 2026-07-15 16:54:15
 
 The following files were created in my_project_slides.tex:
 my_project_slides.pdf 
 
-make.sh finished at 2026-07-15 16:36:57
+make.sh finished at 2026-07-15 16:54:15

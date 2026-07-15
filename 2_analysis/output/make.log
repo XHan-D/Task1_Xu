@@ -1,5 +1,5 @@
 
-Script analyze_data.py in python3 started at 2026-07-15 16:36:45
+Script analyze_data.py in python3 started at 2026-07-15 16:54:02
 /home/users/xuhanx/venvs/task1/lib/python3.12/site-packages/statsmodels/base/model.py:1894: ValueWarning: covariance of constraints does not have full rank. The number of constraints is 2, but rank is 1
   warnings.warn('covariance of constraints does not have full '
                             OLS Regression Results                            
@@ -8,7 +8,7 @@ Dep. Variable:                  displ   R-squared:                       0.638
 Model:                            OLS   Adj. R-squared:                  0.635
 Method:                 Least Squares   F-statistic:                     1.770
 Date:                Wed, 15 Jul 2026   Prob (F-statistic):              0.410
-Time:                        16:36:54   Log-Likelihood:                -272.68
+Time:                        16:54:11   Log-Likelihood:                -272.68
 No. Observations:                 234   AIC:                             551.4
 Df Residuals:                     231   BIC:                             561.7
 Df Model:                           2                                         
@@ -28,6 +28,6 @@ Kurtosis:                       4.879   Cond. No.                         123.
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-Script analyze_data.py finished successfully at 2026-07-15 16:36:54
+Script analyze_data.py finished successfully at 2026-07-15 16:54:12
 
-make.sh finished at 2026-07-15 16:36:54
+make.sh finished at 2026-07-15 16:54:12

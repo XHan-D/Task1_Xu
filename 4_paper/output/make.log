@@ -1,5 +1,5 @@
 
-Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-15 16:36:57
+Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-15 16:54:15
 Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
 Rule 'pdflatex': The following rules & subrules became out-of-date:
       'pdflatex'
@@ -197,7 +197,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></share/software/user/open/texlive/2
 019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></share/software/user/open/texl
 ive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></share/software/user/open
 /texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_project.pdf (7 pages, 126979 bytes).
+Output written on my_project.pdf (7 pages, 127439 bytes).
 Transcript written on my_project.log.
 Latexmk: Non-existent bbl file 'my_project.bbl'
  No file my_project.bbl.
@@ -429,7 +429,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></share/software/user/open/texlive/2
 019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></share/software/user/open/texl
 ive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></share/software/user/open
 /texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_project.pdf (8 pages, 132433 bytes).
+Output written on my_project.pdf (8 pages, 132892 bytes).
 Transcript written on my_project.log.
 Latexmk: Found input bbl file 'my_project.bbl'
 Latexmk: References changed.
@@ -639,7 +639,7 @@ t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></share/software/user/open/texlive/2
 019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></share/software/user/open/texl
 ive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></share/software/user/open
 /texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_project.pdf (8 pages, 132081 bytes).
+Output written on my_project.pdf (8 pages, 132540 bytes).
 Transcript written on my_project.log.
 Latexmk: Found input bbl file 'my_project.bbl'
 Latexmk: Log file says output to 'my_project.pdf'
@@ -650,9 +650,9 @@ Latexmk: Found bibliography file(s) [my_project.bib]
 Latexmk: Summary of warnings from last run of (pdf)latex:
   Latex found 1 multiply defined reference(s)
 Latexmk: All targets () are up-to-date
-Script my_project.tex finished successfully at 2026-07-15 16:38:49
+Script my_project.tex finished successfully at 2026-07-15 16:54:17
 
 The following files were created in my_project.tex:
 my_project.pdf 
 
-make.sh finished at 2026-07-15 16:38:49
+make.sh finished at 2026-07-15 16:54:17
