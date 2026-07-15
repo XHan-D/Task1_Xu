@@ -34,7 +34,7 @@ def regression_table(data):
 def hwy_figure(data):
   plt.scatter(data['displ'], np.log(data['hwy']), c=data['year'])
   plt.xlabel("Engine displacement (L)")
-  plt.ylabel("Highway fuel economy (mpg)")
+  plt.ylabel("Log highway fuel economy (log mpg)")
   plt.savefig("../output/figure_hwy.jpg")
 
 def city_figure(data):
