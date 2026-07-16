@@ -1,87 +1,132 @@
 
-Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-08 10:01:39
-Rc files read (in order):
-  NONE
-Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
-No existing .aux file, so I'll make a simple one, and require run of *latex.
-Latexmk: applying rule 'pdflatex'...
-Rule 'pdflatex':  Reasons for rerun
-Category 'other':
-  Rerun of 'pdflatex' forced or previously required:
-    Reason or flag: 'Initial setup'
-
+Script my_project.tex in latexmk -pdf -bibtex started at 2026-07-15 16:54:15
+Latexmk: This is Latexmk, John Collins, 18 June 2019, version: 4.65.
+Rule 'pdflatex': The following rules & subrules became out-of-date:
+      'pdflatex'
 ------------
 Run number 1 of rule 'pdflatex'
 ------------
 ------------
 Running 'pdflatex  -interaction=nonstopmode -recorder  "my_project.tex"'
 ------------
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./my_project.tex
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size12.clo))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+LaTeX2e <2019-10-01> patch level 1
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/base/size12.clo))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/float/float.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.st
+y
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/datetime/datetime.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/fmtcount/fcprefix.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/fmtcount/fcnumparser.sty)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/datetime/datetime-defaults.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/dcolumn.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/locale/en/babel-english.t
-ex) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
- (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/times.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/footmisc/footmisc.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-(./my_project.aux)
-(/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty)
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.s
+ty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.
+sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/keyval.st
+y)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/graphics.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty)
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graph
+ics.cfg)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics-def/pdfte
+x.def)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty)
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/setspace/setspace.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/geometry/geometry.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.s
+ty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.
+sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/datetime/datetime.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/fmtcount/fmtcount.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.
+tex
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils
+.tex)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/fmtcount/fcprefix.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/fmtcount/fcnumpars
+er.sty)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/datetime/datetime-
+defaults.sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/tools/dcolumn.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/tools/array.sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel-english/en
+glish.ldf
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.d
+ef))))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/url/url.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/caption/caption.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/caption/caption3.s
+ty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.
+sty) (./my_project.aux)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/context/base/mkii/supp-p
+df.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/grfext/grfext.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
- (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-
+base.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/infware
+rr.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefin
+ekeys.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds
+.sty)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions
+.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetke
+ys.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmd
+s.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluate
+x.sty))))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexc
+mds.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/latexconfig/epstop
+df-sys.cfg))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -116,11 +161,11 @@ ex) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1{/usr/local/t
-exlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/20
-26/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd)
+[1{/share/software/user/open/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}]
 
 Package natbib Warning: Citation `Arrow1974' on page 2 undefined on input line 
 55.
@@ -144,122 +189,173 @@ Package natbib Warning: There were undefined citations.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
- )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
-l/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
-2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_project.pdf (7 pages, 117374 bytes).
+ ){/share/software/user/open/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.en
+c}</share/software/user/open/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></share/software/user/open/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></share/software/user/open/texlive/2
+019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></share/software/user/open/texl
+ive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></share/software/user/open
+/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on my_project.pdf (7 pages, 127439 bytes).
 Transcript written on my_project.log.
-Latexmk: Getting log file 'my_project.log'
-Latexmk: Examining 'my_project.fls'
-Latexmk: Examining 'my_project.log'
-Latexmk: Missing bbl file 'my_project.bbl' in following:
+Latexmk: Non-existent bbl file 'my_project.bbl'
  No file my_project.bbl.
 Latexmk: References changed.
 Latexmk: Log file says output to 'my_project.pdf'
-Latexmk: Using bibtex to make bibliography file(s).
-  ===Source file 'my_project.bbl' for 'pdflatex'
-Create bibtex my_project
-Latexmk: Found bibliography file(s):
-  ./my_project.bib
-Latexmk: applying rule 'bibtex my_project'...
-Rule 'bibtex my_project':  Reasons for rerun
-Category 'other':
-  Rerun of 'bibtex my_project' forced or previously required:
-    Reason or flag: 'Initial set up of rule'
-
+Latexmk: List of undefined refs and citations:
+  Citation `Arrow1974' on page 2 undefined on input line 55
+  Citation `Becker2009' on page 2 undefined on input line 55
+  Citation `Friedman1970' on page 2 undefined on input line 55
+=== TeX engine is 'pdfTeX'
+Latexmk: Found bibliography file(s) [my_project.bib]
+Rule 'bibtex my_project': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'my_project.aux'
 ------------
 Run number 1 of rule 'bibtex my_project'
 ------------
 ------------
-Running 'bibtex  "my_project.aux"'
+Running 'bibtex  "my_project"'
 ------------
-This is BibTeX, Version 0.99e (TeX Live 2026)
+Latexmk: applying rule 'bibtex my_project'...
+For rule 'bibtex my_project', running '&run_bibtex(  )' ...
+This is BibTeX, Version 0.99d (TeX Live 2019)
 The top-level auxiliary file: my_project.aux
 The style file: apalike.bst
 Database file #1: my_project.bib
-Latexmk: applying rule 'pdflatex'...
-Rule 'pdflatex':  Reasons for rerun
-Changed files or newly in use/created:
-  my_project.aux
-  my_project.bbl
-
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'my_project.aux'
+      'my_project.bbl'
 ------------
 Run number 2 of rule 'pdflatex'
 ------------
 ------------
 Running 'pdflatex  -interaction=nonstopmode -recorder  "my_project.tex"'
 ------------
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./my_project.tex
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size12.clo))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+LaTeX2e <2019-10-01> patch level 1
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/base/size12.clo))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/float/float.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.st
+y
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/datetime/datetime.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/fmtcount/fcprefix.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/fmtcount/fcnumparser.sty)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/datetime/datetime-defaults.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/dcolumn.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/locale/en/babel-english.t
-ex) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
- (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/times.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/footmisc/footmisc.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-(./my_project.aux
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty)
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.s
+ty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.
+sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/keyval.st
+y)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/graphics.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty)
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graph
+ics.cfg)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics-def/pdfte
+x.def)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty)
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/setspace/setspace.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/geometry/geometry.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.s
+ty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.
+sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/datetime/datetime.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/fmtcount/fmtcount.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.
+tex
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils
+.tex)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/fmtcount/fcprefix.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/fmtcount/fcnumpars
+er.sty)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/datetime/datetime-
+defaults.sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/tools/dcolumn.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/tools/array.sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel-english/en
+glish.ldf
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.d
+ef))))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/url/url.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/caption/caption.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/caption/caption3.s
+ty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.
+sty) (./my_project.aux
 
 LaTeX Warning: Label `tab:regression' multiply defined.
 
-) (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) (/share/software/user/open/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/context/base/mkii/supp-p
+df.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/grfext/grfext.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
- (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-
+base.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/infware
+rr.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefin
+ekeys.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds
+.sty)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions
+.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetke
+ys.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmd
+s.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluate
+x.sty))))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexc
+mds.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/latexconfig/epstop
+df-sys.cfg))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -294,11 +390,11 @@ LaTeX Warning: Label `tab:regression' multiply defined.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1{/usr/local/t
-exlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/20
-26/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd)
+[1{/share/software/user/open/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}]
 
 Package natbib Warning: Citation `Arrow1974' on page 2 undefined on input line 
 55.
@@ -325,118 +421,172 @@ Package natbib Warning: Citation(s) may have changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
- )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
-l/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
-2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_project.pdf (8 pages, 122784 bytes).
+ ){/share/software/user/open/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.en
+c}</share/software/user/open/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></share/software/user/open/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></share/software/user/open/texlive/2
+019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></share/software/user/open/texl
+ive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></share/software/user/open
+/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on my_project.pdf (8 pages, 132892 bytes).
 Transcript written on my_project.log.
-Latexmk: Getting log file 'my_project.log'
-Latexmk: Examining 'my_project.fls'
-Latexmk: Examining 'my_project.log'
 Latexmk: Found input bbl file 'my_project.bbl'
 Latexmk: References changed.
 Latexmk: Log file says output to 'my_project.pdf'
-Latexmk: Using bibtex to make bibliography file(s).
-  ===Source file 'my_project.bbl' for 'pdflatex'
-Latexmk: Found bibliography file(s):
-  ./my_project.bib
-Latexmk: applying rule 'bibtex my_project'...
-Rule 'bibtex my_project':  Reasons for rerun
-Changed files or newly in use/created:
-  my_project.aux
-
+Latexmk: List of undefined refs and citations:
+  Citation `Arrow1974' on page 2 undefined on input line 55
+  Citation `Becker2009' on page 2 undefined on input line 55
+  Citation `Friedman1970' on page 2 undefined on input line 55
+  Label `tab:regression' multiply defined
+=== TeX engine is 'pdfTeX'
+Latexmk: Found bibliography file(s) [my_project.bib]
+Rule 'bibtex my_project': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'my_project.aux'
 ------------
 Run number 2 of rule 'bibtex my_project'
 ------------
 ------------
-Running 'bibtex  "my_project.aux"'
+Running 'bibtex  "my_project"'
 ------------
-This is BibTeX, Version 0.99e (TeX Live 2026)
+Latexmk: applying rule 'bibtex my_project'...
+For rule 'bibtex my_project', running '&run_bibtex(  )' ...
+This is BibTeX, Version 0.99d (TeX Live 2019)
 The top-level auxiliary file: my_project.aux
 The style file: apalike.bst
 Database file #1: my_project.bib
-Latexmk: applying rule 'pdflatex'...
-Rule 'pdflatex':  Reasons for rerun
-Changed files or newly in use/created:
-  my_project.aux
-
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'my_project.aux'
 ------------
 Run number 3 of rule 'pdflatex'
 ------------
 ------------
 Running 'pdflatex  -interaction=nonstopmode -recorder  "my_project.tex"'
 ------------
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex)
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
  restricted \write18 enabled.
 entering extended mode
 (./my_project.tex
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-01-19>
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size12.clo))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
+LaTeX2e <2019-10-01> patch level 1
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/base/size12.clo))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/float/float.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.st
+y
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amstext.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amscls/amsthm.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/trig.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/pdftex.def)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/setspace/setspace.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/datetime/datetime.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/base/ifthen.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkvutils.tex)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/fmtcount/fcprefix.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/fmtcount/fcnumparser.sty)))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/datetime/datetime-defaults.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/booktabs/booktabs.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/dcolumn.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/tools/array.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/babel.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/txtbabel.def)
-(/usr/local/texlive/2026/texmf-dist/tex/generic/babel/locale/en/babel-english.t
-ex) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel-english/english.ldf))
- (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/times.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
-(/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/latex/footmisc/footmisc.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
-(./my_project.aux
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty)
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.s
+ty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.
+sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/keyval.st
+y)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/graphics.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty)
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graph
+ics.cfg)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/graphics-def/pdfte
+x.def)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty)
+
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/setspace/setspace.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/geometry/geometry.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.s
+ty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ifvtex.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.
+sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/datetime/datetime.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/fmtcount/fmtcount.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.
+tex
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils
+.tex)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/fmtcount/fcprefix.
+sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/fmtcount/fcnumpars
+er.sty)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/datetime/datetime-
+defaults.sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.
+sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/tools/dcolumn.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/tools/array.sty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel-english/en
+glish.ldf
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.d
+ef))))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/url/url.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/caption/caption.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/caption/caption3.s
+ty))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/footmisc/footmisc.
+sty) (./my_project.aux
 
 LaTeX Warning: Label `tab:regression' multiply defined.
 
-) (/usr/local/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+) (/share/software/user/open/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/context/base/mkii/supp-p
+df.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-) (/usr/local/texlive/2026/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/grfext/grfext.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty))
- (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-(/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))
-(/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-
+base.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/infware
+rr.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.st
+y
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefin
+ekeys.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds
+.sty)))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions
+.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetke
+ys.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmd
+s.sty
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluate
+x.sty))))
+(/share/software/user/open/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexc
+mds.sty)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/latexconfig/epstop
+df-sys.cfg))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -471,43 +621,38 @@ LaTeX Warning: Label `tab:regression' multiply defined.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd)
-(/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd) [1{/usr/local/t
-exlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/20
-26/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2] [3] [4] (./my_project.bbl)
-[5] [6 <../input/figure_city.jpg> <../input/figure_hwy.jpg>]
-(../input/table_reg.tex) [7] (../input/table_reg_cluster.tex) [8]
-(./my_project.aux)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/share/software/user/open/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd)
+[1{/share/software/user/open/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}] [2] [3] [4] (./my_project.bbl) [5] [6 <../input/figure_city.jpg> <../
+input/figure_hwy.jpg>] (../input/table_reg.tex) [7]
+(../input/table_reg_cluster.tex) [8] (./my_project.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
- )</usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-</usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
-l/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
-2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on my_project.pdf (8 pages, 122442 bytes).
+ ){/share/software/user/open/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.en
+c}</share/software/user/open/texlive/2019/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></share/software/user/open/texlive/2019/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></share/software/user/open/texlive/2
+019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></share/software/user/open/texl
+ive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></share/software/user/open
+/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on my_project.pdf (8 pages, 132540 bytes).
 Transcript written on my_project.log.
-Latexmk: Getting log file 'my_project.log'
-Latexmk: Examining 'my_project.fls'
-Latexmk: Examining 'my_project.log'
-Latexmk: Found input bbl file 'my_project.bbl'
 Latexmk: Found input bbl file 'my_project.bbl'
 Latexmk: Log file says output to 'my_project.pdf'
-Latexmk: Using bibtex to make bibliography file(s).
-  ===Source file 'my_project.bbl' for 'pdflatex'
-Latexmk: Found bibliography file(s):
-  ./my_project.bib
-Latexmk: Summary of warnings from last run of *latex:
-  Latex found 1 multiply defined reference(s)
-Latexmk: ====Problematic refs and citations with line #s in .tex file:
+Latexmk: List of undefined refs and citations:
   Label `tab:regression' multiply defined
-Latexmk: All targets (my_project.pdf) are up-to-date
-
-Script my_project.tex finished successfully at 2026-07-08 10:01:41
+=== TeX engine is 'pdfTeX'
+Latexmk: Found bibliography file(s) [my_project.bib]
+Latexmk: Summary of warnings from last run of (pdf)latex:
+  Latex found 1 multiply defined reference(s)
+Latexmk: All targets () are up-to-date
+Script my_project.tex finished successfully at 2026-07-15 16:54:17
 
 The following files were created in my_project.tex:
 my_project.pdf 
 
-make.sh finished at 2026-07-08 10:01:41
+make.sh finished at 2026-07-15 16:54:17
